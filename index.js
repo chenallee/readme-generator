@@ -14,6 +14,7 @@ inquirer
     .get(`https://api.github.com/users/${response.username}`) //get email & avatar
     .then(({data}) => {
 
+      console.log(response);
       const responseData = {...response, githubData: {...data}};
       const markdownFormatted = formatMarkdown(responseData);
 
@@ -27,7 +28,3 @@ inquirer
     });
   }
   );
-
-//send username to github and get back email and avatar
-
-//
