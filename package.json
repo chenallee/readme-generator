@@ -1,0 +1,26 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenallee/readme-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chenallee/readme-generator/issues"
+  },
+  "homepage": "https://github.com/chenallee/readme-generator#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "inquirer": "^7.0.4"
+  }
+}
